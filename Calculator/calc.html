@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="center">
+    <form>
+        <input type="text" name="display" id="result" disabled>
+
+        <div class="buttons">
+            <input type="button" value="7" onclick="disp('7')">
+            <input type="button" value="8" onclick="disp('8')">
+            <input type="button" value="9" onclick="disp('9')">
+            <input type="button" value="/" onclick="disp('/')"><br>
+            <input type="button" value="4" onclick="disp('4')">
+            <input type="button" value="5" onclick="disp('5')">
+            <input type="button" value="6" onclick="disp('6')">
+            <input type="button" value="*" onclick="disp('*')"><br>
+            <input type="button" value="1" onclick="disp('1')">
+            <input type="button" value="2" onclick="disp('2')">
+            <input type="button" value="3" onclick="disp('3')">
+            <input type="button" value="-" onclick="disp('-')"><br>
+            <input type="button" value="." onclick="disp('.')">
+            <input type="button" value="0" onclick="disp('0')">
+            <input type="button" value="+" onclick="disp('+')">
+            <input type="button" value="C" id = "clear" onclick="clr()"><br>
+            <input type="button" value="=" id = "equal" onclick="solve()">
+
+        </div>
+
+    </form>
+</div>
+<script src ="script.js"></script>
+</body>
+</html>
